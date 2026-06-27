@@ -576,7 +576,7 @@ function DepositScreen({go, nav, TopBar, coins, setCoins}) {
               ))}
             </div>
             <div className="alert alert-gold">⚡ 1 Real = 1 Moeda · Mínimo R$ 20</div>
-            <button className="gold-btn" style={{width:"100%",marginTop:8}} onClick={confirm} disabled={!sel} style={{width:"100%",opacity:sel?1:.5}}>Confirmar Depósito</button>
+            <button style={{ width:"100%", marginTop:8, opacity:sel?1:.5 }}>Confirmar Depósito</button>
           </>
         )}
         {step==="qr" && (
